@@ -1,0 +1,85 @@
+/* Estilo básico do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #818181; /* cor de fundo clara */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilo da seção */
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Título principal */
+h1 {
+    color: #2a9df4;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Input de texto */
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Botão de pesquisa */
+button {
+    background-color: #2a9df4;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #1b7bc3;
+}
+
+/* Div de resultado */
+#resultado {
+    margin-top: 20px;
+}
+
+/* Estilo da imagem do ícone do clima */
+#resultado img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Estilo das informações */
+#resultado p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+#resultado h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Estilo da mensagem de erro */
+.alert {
+    color: red;
+    font-weight: bold;
+}
